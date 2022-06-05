@@ -54,7 +54,7 @@ log.add(                      # add syslog for only warnings
 
 ## Example with log mute feature
 
-This example sets up a Lobot (DEBUG as main level) with a Syslog handler and a Slack handler with a 5-second mute using Memcached.
+This example sets up a Logifire (DEBUG as main level) with a Syslog handler and a Slack handler with a 5-second mute using Memcached.
 
 This allows all DEBUG-level messages to be written to syslog and CRITICAL level messages to be sent to the Slack channel, but no more than once every 5 seconds.
 Since Memcached (in this case) is used as the backend for mute, it'll work across the entire cluster if the service is running on multiple servers.
