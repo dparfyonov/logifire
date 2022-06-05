@@ -1,4 +1,4 @@
-# Logifire v0.1
+# Logifire v0.0.2
 
 Simplifying the use of logs based on build-in logging.
 

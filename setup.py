@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="logifire",
-    version="0.0.1",
+    version="0.0.2",
     author="Dmitry Parfyonov",
     author_email="parfyonov.dima@gmail.com",
     description="Logs manager with mute log feature at different levels: process, server, cluster",

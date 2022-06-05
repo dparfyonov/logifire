@@ -163,7 +163,7 @@ class Logifire(object):
             msg, *args, _exc_info=_exc_info, _extra=_extra, _stack_info=_stack_info, _stacklevel=_stacklevel, **kwargs
         )
 
-    def critical(self, msg: str, *args, _exc_info=None, _extra=None, _stack_info=False, _stacklevel=1, **kwargs):
+    def critical(self, msg: str, *args, _exc_info=True, _extra=None, _stack_info=False, _stacklevel=1, **kwargs):
         """
         Log critical message.
         """
